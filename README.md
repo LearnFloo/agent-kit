@@ -73,6 +73,10 @@ Puis dans `.cursor/mcp.json` : `{ "mcpServers": { "learnfloo": { "url": "https:/
 
 Serveur MCP dans `~/.gemini/settings.json` : `{ "mcpServers": { "learnfloo": { "httpUrl": "https://api.learnfloo.com/mcp" } } }`.
 
+## GPT pour ChatGPT
+
+ChatGPT ne lit pas les serveurs MCP depuis un GPT : le dossier [`gpt/`](gpt/) contient les instructions du GPT « LearnFloo » et la marche à suivre pour le créer avec une *Action* (fichier OpenAPI `https://api.learnfloo.com/openapi.json?preset=gpt`, 30 opérations, OAuth).
+
 ## Sécurité
 
 - Préférez **OAuth** : aucun secret dans la configuration, autorisation révocable dans les paramètres de l'espace, actions attribuées à votre compte.
