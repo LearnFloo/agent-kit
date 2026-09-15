@@ -32,7 +32,7 @@ Chaque skill suit les règles communes de `skills/_GROUND_RULES.md` : répondre 
 ### Claude Code
 
 ```sh
-claude plugin marketplace add lipaonline/learnfloo-agent-kit
+claude plugin marketplace add learnfloo/agent-kit
 claude plugin install learnfloo@learnfloo
 ```
 

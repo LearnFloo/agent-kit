@@ -32,7 +32,7 @@ Every skill follows the shared rules in `skills/_GROUND_RULES.md`: reply in the 
 ### Claude Code
 
 ```sh
-claude plugin marketplace add lipaonline/learnfloo-agent-kit
+claude plugin marketplace add learnfloo/agent-kit
 claude plugin install learnfloo@learnfloo
 ```
 

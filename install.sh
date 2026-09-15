@@ -10,7 +10,7 @@ case "$TARGET" in
   cursor) DIR="$HOME/.cursor/skills"; [ "$SCOPE" = "--project" ] && DIR=".cursor/skills" ;;
   gemini) DIR="$HOME/.gemini/skills"; [ "$SCOPE" = "--project" ] && DIR=".gemini/skills" ;;
   agents) DIR="$HOME/.agents/skills"; [ "$SCOPE" = "--project" ] && DIR=".agents/skills" ;;
-  *) echo "Usage: $0 codex|cursor|gemini|agents [--project]"; echo "Claude Code: claude plugin marketplace add lipaonline/learnfloo-agent-kit && claude plugin install learnfloo@learnfloo"; exit 1 ;;
+  *) echo "Usage: $0 codex|cursor|gemini|agents [--project]"; echo "Claude Code: claude plugin marketplace add learnfloo/agent-kit && claude plugin install learnfloo@learnfloo"; exit 1 ;;
 esac
 mkdir -p "$DIR"
 # One folder per skill; the shared rules file sits next to them so the ../_GROUND_RULES.md reference stays valid.
