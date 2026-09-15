@@ -1,0 +1,11 @@
+{
+  "name": "learnfloo",
+  "displayName": "LearnFloo",
+  "version": "1.0.0",
+  "description": "Run your LearnFloo space with Claude: health report, live preparation and control room, debriefs, course building, community animation, member follow-up, support inbox, API integration. Connects to the LearnFloo MCP server (OAuth or API key).",
+  "author": { "name": "LearnFloo", "url": "https://www.learnfloo.com" },
+  "homepage": "https://api.learnfloo.com/docs#mcp",
+  "repository": "https://github.com/lipaonline/learnfloo-agent-kit",
+  "license": "MIT",
+  "keywords": ["learnfloo", "community", "courses", "live", "webinar", "mcp", "lms"]
+}
