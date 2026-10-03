@@ -17,6 +17,7 @@ The MCP server (`https://api.learnfloo.com/mcp`) exposes one tool per route of t
 |---|---|---|
 | `space-report` | Health report of the space: members, activity, courses, lives, support, usage and costs, three next actions | read |
 | `space-growth-report` | Growth of the space: where visitors come from, which sources and campaigns convert, what happens to newcomers, three next actions | read |
+| `install-integration` | Connect LearnFloo to HubSpot, Brevo, Mailchimp, Google Sheets, Slack, Discord, Notion or Calendly from the [learnfloo/integrations](https://github.com/learnfloo/integrations) recipes: webhook created, test sent | write |
 | `prepare-live` | Plans a live end to end: date, audience, replay rule, scenes from templates, draft polls, invitation links, announcement | full |
 | `live-control-room` | Drives a running live: scenes, bands, polls, staged messages, speakers, conversions | full |
 | `live-debrief` | After the live: attendance, open questions, poll results, replay, recap post, lesson from the replay, XP | read (analysis) / full (follow-ups) |

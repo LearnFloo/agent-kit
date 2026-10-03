@@ -3,14 +3,14 @@
   "owner": { "name": "LearnFloo", "url": "https://www.learnfloo.com" },
   "metadata": {
     "description": "Official LearnFloo plugins for Claude Code: run your community, courses and lives with an AI assistant.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "learnfloo",
       "source": "./plugins/learnfloo",
-      "description": "Run your LearnFloo space with Claude: health report, live preparation and control room, debriefs, course building, community animation, member follow-up, support inbox, API integration.",
-      "version": "1.0.0",
+      "description": "Run your LearnFloo space with Claude: health report, live preparation and control room, debriefs, course building, community animation, member follow-up, support inbox, API integration, tool integrations (HubSpot, Slack, Notion…).",
+      "version": "1.1.0",
       "category": "productivity",
       "tags": ["learnfloo", "community", "courses", "live", "webinar", "mcp"],
       "homepage": "https://api.learnfloo.com/docs#mcp",
