@@ -1,8 +1,8 @@
 {
   "name": "learnfloo",
   "displayName": "LearnFloo",
-  "version": "1.1.0",
-  "description": "Run your LearnFloo space with Claude: health report, live preparation and control room, debriefs, course building, community animation, member follow-up, support inbox, API integration, tool integrations (HubSpot, Slack, Notion…). Connects to the LearnFloo MCP server (OAuth or API key).",
+  "version": "1.2.0",
+  "description": "Run your LearnFloo space with Claude: health report, live preparation and control room, debriefs, course building, community animation, member follow-up, support inbox, API integration, tool integrations (HubSpot, Slack, Notion…), meeting tasks to Asana, Trello, Notion or Linear. Connects to the LearnFloo MCP server (OAuth or API key).",
   "author": { "name": "LearnFloo", "url": "https://www.learnfloo.com" },
   "homepage": "https://api.learnfloo.com/docs#mcp",
   "repository": "https://github.com/learnfloo/agent-kit",

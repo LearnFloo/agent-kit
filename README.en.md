@@ -21,6 +21,7 @@ The MCP server (`https://api.learnfloo.com/mcp`) exposes one tool per route of t
 | `prepare-live` | Plans a live end to end: date, audience, replay rule, scenes from templates, draft polls, invitation links, announcement | full |
 | `live-control-room` | Drives a running live: scenes, bands, polls, staged messages, speakers, conversions | full |
 | `live-debrief` | After the live: attendance, open questions, poll results, replay, recap post, lesson from the replay, XP | read (analysis) / full (follow-ups) |
+| `meeting-tasks-sync` | Copies the tasks of meeting recaps (recorded visios, webinars) into Asana, Trello, Notion, Linear… and keeps both sides checked in step, in the conversation or permanently through webhooks; reads a recap, asks a meeting, rewrites it with another template | read / full |
 | `build-course` | Builds a course from an outline, a document or a transcript: modules, HTML lessons with video, publication, progress | full |
 | `animate-community` | Animates the feed: welcomes, answers to questions, wins, weekly calendar, per-group posts | full |
 | `follow-up-members` | Re-engagement: silent newcomers, stalled learners, falling actives, champions; XP, groups, targeted posts | read / full |
